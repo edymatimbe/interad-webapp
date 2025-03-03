@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(45deg, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/fotos/local-culture-with-nigerian-dancers-medium-shot.jpg'); */
+    background-size: cover;
+    background-position: center;
+    /* background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(fotos/local-culture-with-nigerian-dancers-medium-shot.jpg); */
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../musica/img/cartoon-style-musical-notes-background.jpg);
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.player-container {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+.playlist-container {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow-y: auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.album-art {
+    width: 360px;
+    height: 640px;
+    background-color: #333;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.album-art video {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.album-art:hover {
+    transform: scale(1.05);
+}
+
+.progress-bar {
+    background-color: #444;
+    border-radius: 5px;
+    height: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.progress {
+    background-color: #1db954;
+    height: 100%;
+    width: 0;
+}
+
+
+.search-bar {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search-bar i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 18px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.playlist li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.playlist li:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    transform: scale(1.02);
+}
+
+.playlist li.active {
+    background-color: #1db954;
+    color: white;
+}
+
+.d-none {
+    display: none;
+}

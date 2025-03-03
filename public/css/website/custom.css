@@ -1,0 +1,15 @@
+/* your styles go here */
+.logo {
+    height: 40%;
+    width: 40%;
+}
+
+.price-img {
+    height: auto;
+    width: 30%;
+}
+
+.feat-shadows {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+}
+

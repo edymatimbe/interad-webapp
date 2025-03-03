@@ -1,0 +1,325 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner
+{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #2c3e50, #fd746c);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content
+{
+	padding: 50px 100px;
+}
+.content h2
+{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 30px;
+}
+.content p
+{
+	font-size: 14px;
+}
+.sidebar-login
+{
+	position: fixed;
+	top: 50%;
+	left: -350px;
+	transform: translateY(-50%);
+	width: 350px;
+	height: 520px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);	
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.sidebar-login.active
+{
+	left: 0px;
+}
+.sidebar-login h2
+{
+	color: #777;
+	margin: 0 0 40px;
+	padding: 0;
+	text-align: center;
+}
+.sidebar-login .input-box
+{
+	position: relative;
+	margin: 20px 0;
+}
+.sidebar-login .input-box input
+{
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	border-bottom: 2px solid #777;
+	outline: none;
+	padding: 10px;
+	padding-left: 25px;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: #777;
+}
+.sidebar-login .input-box input:focus,
+.sidebar-login .input-box input:valid
+{
+	border-bottom: 2px solid #03a9f4;
+}
+.sidebar-login .input-box .fa
+{
+	position: absolute;
+	top: 8px;
+	left: 0;
+	font-size: 18px;
+	color: #777;
+}
+.sidebar-login .input-box input[type="submit"]
+{
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(45deg, #2c3e50, #fd746c);
+	color: #fff;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.sidebar-login .input-box input[type="submit"]:hover
+{
+	background: linear-gradient(45deg, #fd746c, #2c3e50);
+}
+.sidebar-login .a
+{
+	text-decoration: none;
+	color: #777;
+	margin-top: 20px;
+	font-weight: bold;
+	display: inline-block;
+	transition: 0.5s;
+}
+.sidebar-login a:hover
+{
+	color: #BE5869;
+}
+.toggle
+{
+	position: absolute;
+	top: 0;
+	right: -48px;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	cursor: pointer;
+	background: #03a9f4;
+}
+.toggle:before
+{
+	content: '\f007';
+	font-family: fontAwesome;
+	color: #fff;
+	font-size: 24px;
+}
+.toggle.active:before
+{
+	content: '\f00d';
+}
+	.sidebar-login h5
+	{
+		margin: 0;
+		padding: 15px 0 0 0;
+		text-align: center;
+		color: #777;
+	}
+	.sidebar-login h4
+	{
+		text-align: center;
+		color: #777;
+	}
+	.sidebar-login h4 a
+	{
+		text-decoration: none;
+		color: #BE5869;
+	}
+
+
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	left: 45px;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	margin: 0 20px;
+	border-radius: 50%;
+	padding: 6px;
+	box-sizing: border-box;
+	text-decoration: none;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	background: linear-gradient(0deg, #ddd, #fff);
+	transition: .5s;
+}
+ul li a:hover
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+ul li a .fa
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: linear-gradient(0deg, #fff, #ddd);
+	border-radius: 50%;
+	line-height: calc(50px - 12px);
+	font-size: 24px;
+	color: #262626;
+	transition: .5s;
+}
+ul li:nth-child(1) a:hover .fa
+{
+	color: #3b5999;
+}
+ul li:nth-child(2) a:hover .fa
+{
+	color: #dd4b39;
+}
+
+
+@media screen and (max-width: 988px)
+{
+	.sidebar-login
+	{
+		width: 350px;
+		height: 520px;
+	}
+}
+@media screen and (max-width: 640px)
+{
+	.sidebar-login
+	{
+		width: 310px;
+		height: 520px;
+		left: -310px;	
+	}
+	ul li a
+	{
+		left: 25px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	.sidebar-login
+	{
+		width: auto;
+		height: 520px;
+		
+	}
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling the alert container */
+
+.alert {
+    width: 100%;
+    margin: 10px auto;
+    padding: 8px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px #ccc;
+}
+
+
+/* Styling the close button */
+
+.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    right: 15px;
+    top: 25px;
+    text-align: center;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+
+/* Styling the standard alert message */
+
+.standard {
+    background-color: #ebebeb;
+    border-left: 5px solid #6c6c6c;
+}
+
+.standard .close {
+    border-color: #6c6c6c;
+    color: #6c6c6c;
+}
+
+
+/* Styling the success alert message */
+
+.success {
+    background-color: #a8f0c6;
+    border-left: 5px solid #178344;
+}
+
+.success .close {
+    border-color: #178344;
+    color: #178344;
+}
+
+
+/* Styling the danger alert message */
+
+.danger {
+    background-color: #f7a7a3;
+    border-left: 5px solid #8f130c;
+}
+
+.danger .close {
+    border-color: #8f130c;
+    color: #8f130c;
+}
+
+
+/* Styling the warning alert message */
+
+.warning {
+    background-color: #ffd48a;
+    border-left: 5px solid #8a5700;
+}
+
+.warning .close {
+    border-color: #8a5700;
+    color: #8a5700;
+}

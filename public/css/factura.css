@@ -1,0 +1,70 @@
+.bb{
+    border: 1px solid red !important;
+}
+
+.blue-main{
+    color: #0c4191 !important;
+}
+
+.logo{
+    width: 130px !important;
+    /* height: 100px !important; */
+    /* width: 2%; */
+}
+
+tfoot> tr> td.no-border {
+    border: 1px solid white ;
+}
+
+
+tfoot> tr> td.border-c{
+    border:1px solid rgb(29, 28, 28,0.5) !important;
+}
+
+.border-c{
+    border:1px solid rgb(29, 28, 28,0.5) !important;
+}
+.border-r{
+    border-right:1px solid rgb(29, 28, 28,0.5) !important;
+}
+.border-b{
+    border-bottom:1px solid rgb(29, 28, 28,0.5) !important;
+}
+tfoot> tr> td.border-l{
+    border-left:1px solid rgb(29, 28, 28,0.5) !important;
+}
+
+
+
+table{
+    border-collapse: collapse !important;
+    padding: 0 !important;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid rgb(29, 28, 28,0.5) !important;
+    border-collapse: collapse !important;
+    padding: 0 !important;
+}
+table.table-bordered > thead > tr > td{
+    border:1px solid rgb(29, 28, 28,0.5) !important;
+    border-collapse: collapse !important;
+    padding: 0 !important;
+}
+table.table-bordered > thead > tr > th{
+    border:1px solid rgb(29, 28, 28,0.5) !important;
+    border-collapse: collapse !important;
+    padding: 0 !important;
+}
+
+table.table-striped > thead> tr >td{
+    padding:0 !important;
+}
+table.table-striped > thead> tr>th{
+    padding:0 !important;
+}
+table.table-striped > tbody> tr>td{
+    padding:0 !important;
+}
+
+

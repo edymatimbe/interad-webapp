@@ -1,0 +1,11 @@
+.select2-container--default .select2-selection--single {
+	border: 1px solid #d1d3e2;
+	border-radius:  3px;
+	outline: none;
+	height: 38px;
+	padding-top: 5px;
+	padding-left: 30px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+	outline: none;
+}

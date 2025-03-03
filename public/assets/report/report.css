@@ -1,0 +1,46 @@
+.report_nav-tabs {
+    padding: 15px 0 15px 0px;
+}
+
+.tab-content {
+    padding: 15px;
+}
+
+.nav-tabs a {
+    color: #283487;
+    font-size: .8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    padding: 15px 25px;
+}
+
+.nav-tabs .nav-link {
+    background: #FFFFFF;
+    border-right: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    margin-bottom: 0px;
+    text-indent: 0px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #283487;
+    border-color: #fff;
+    border-bottom: 3px solid #283487;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #283487;
+    border-color: #fff;
+    border-bottom: 3px solid #283487;
+    opacity: .5;
+}
+
+canvas {
+    width: 100%;
+    margin-bottom: 10px;
+}

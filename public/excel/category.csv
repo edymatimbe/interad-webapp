@@ -1,0 +1,10 @@
+id,name,image,code,parent_id,active,created_at,created_by,updated_by,company_id,updated_at,is_service,in_invoice
+1,Material de Escritório,NULL,NULL,NULL,1,,13,13,8,,0,0
+2,Computadores e Acessórios,NULL,NULL,NULL,1,,13,13,8,,,
+3,Impressoras e Scanners,NULL,NULL,NULL,1,,13,13,8,,,
+4,Toneres e Tinteiros,NULL,NULL,NULL,1,,13,13,8,,,
+5,UPS e Baterias,NULL,NULL,NULL,1,,13,13,8,,,
+6,Monitores ,NULL,NULL,NULL,1,,13,13,8,,,
+7,Projectores e Telas,NULL,NULL,NULL,1,,13,13,8,,,
+8,Material de Rede,NULL,NULL,NULL,1,,13,13,8,,,
+9,Papel e Cartolinas,NULL,NULL,NULL,1,,13,13,8,,,

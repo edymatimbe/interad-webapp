@@ -1,0 +1,20 @@
+{
+    "name": "Publicita",
+    "short_name": "Publicita",
+    "start_url": "../",
+    "display": "fullscreen",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/taxe/public/41bc-sm.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/taxe/public/41bc-md.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

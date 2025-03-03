@@ -1,0 +1,16 @@
+.table,
+.table tr,
+.table td {
+	background-color: white !important;
+}
+.card-title{
+	font-weight: 700 !important;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.text-title{
+	color: #444;
+	font-weight: 600;
+}
+
+

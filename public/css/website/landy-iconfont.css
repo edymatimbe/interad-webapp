@@ -1,0 +1,751 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "landy";
+  src:url("../../fonts/landy.eot");
+  src:url("../../fonts/landy.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/landy.woff") format("woff"),
+    url("../../fonts/landy.ttf") format("truetype"),
+    url("../../fonts/landy.svg#landy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-landy-icon]:before {
+  font-family: "landy" !important;
+  content: attr(data-landy-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="landy-icon-"]:before,
+[class*=" landy-icon-"]:before {
+  font-family: "landy" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.landy-icon-abc:before {
+  content: "\61";
+}
+.landy-icon-add-user:before {
+  content: "\62";
+}
+.landy-icon-admin:before {
+  content: "\63";
+}
+.landy-icon-alarm:before {
+  content: "\64";
+}
+.landy-icon-analytics:before {
+  content: "\65";
+}
+.landy-icon-analytics-1:before {
+  content: "\66";
+}
+.landy-icon-arrow:before {
+  content: "\67";
+}
+.landy-icon-backup:before {
+  content: "\68";
+}
+.landy-icon-bank:before {
+  content: "\69";
+}
+.landy-icon-bar-chart:before {
+  content: "\6a";
+}
+.landy-icon-bar-chart-1:before {
+  content: "\6b";
+}
+.landy-icon-bar-chart-2:before {
+  content: "\6c";
+}
+.landy-icon-bar-chart-3:before {
+  content: "\6d";
+}
+.landy-icon-bar-chart-4:before {
+  content: "\6e";
+}
+.landy-icon-bar-chart-5:before {
+  content: "\6f";
+}
+.landy-icon-book:before {
+  content: "\70";
+}
+.landy-icon-boss:before {
+  content: "\71";
+}
+.landy-icon-box:before {
+  content: "\72";
+}
+.landy-icon-boy:before {
+  content: "\73";
+}
+.landy-icon-briefcase:before {
+  content: "\74";
+}
+.landy-icon-browser:before {
+  content: "\75";
+}
+.landy-icon-browser-1:before {
+  content: "\76";
+}
+.landy-icon-browser-2:before {
+  content: "\77";
+}
+.landy-icon-browser-3:before {
+  content: "\78";
+}
+.landy-icon-bug:before {
+  content: "\79";
+}
+.landy-icon-bug-1:before {
+  content: "\7a";
+}
+.landy-icon-building:before {
+  content: "\41";
+}
+.landy-icon-bullhorn:before {
+  content: "\42";
+}
+.landy-icon-businessman:before {
+  content: "\43";
+}
+.landy-icon-businessman-1:before {
+  content: "\44";
+}
+.landy-icon-captain:before {
+  content: "\45";
+}
+.landy-icon-career:before {
+  content: "\46";
+}
+.landy-icon-cash-point:before {
+  content: "\47";
+}
+.landy-icon-chart:before {
+  content: "\48";
+}
+.landy-icon-chat:before {
+  content: "\49";
+}
+.landy-icon-chat-1:before {
+  content: "\4a";
+}
+.landy-icon-clipboard:before {
+  content: "\4b";
+}
+.landy-icon-cloud:before {
+  content: "\4c";
+}
+.landy-icon-cloud-computing:before {
+  content: "\4d";
+}
+.landy-icon-cloud-computing-1:before {
+  content: "\4e";
+}
+.landy-icon-cloud-computing-2:before {
+  content: "\4f";
+}
+.landy-icon-cloud-computing-3:before {
+  content: "\50";
+}
+.landy-icon-cloud-computing-4:before {
+  content: "\51";
+}
+.landy-icon-cloud-computing-5:before {
+  content: "\52";
+}
+.landy-icon-cloud-computing-6:before {
+  content: "\53";
+}
+.landy-icon-coin:before {
+  content: "\54";
+}
+.landy-icon-computer:before {
+  content: "\55";
+}
+.landy-icon-computer-1:before {
+  content: "\56";
+}
+.landy-icon-cooperation:before {
+  content: "\57";
+}
+.landy-icon-cpu:before {
+  content: "\58";
+}
+.landy-icon-credit:before {
+  content: "\59";
+}
+.landy-icon-crown:before {
+  content: "\5a";
+}
+.landy-icon-curriculum:before {
+  content: "\30";
+}
+.landy-icon-customer-service:before {
+  content: "\31";
+}
+.landy-icon-data:before {
+  content: "\32";
+}
+.landy-icon-database:before {
+  content: "\33";
+}
+.landy-icon-decrease:before {
+  content: "\34";
+}
+.landy-icon-desk:before {
+  content: "\35";
+}
+.landy-icon-desk-chair:before {
+  content: "\36";
+}
+.landy-icon-diagram:before {
+  content: "\37";
+}
+.landy-icon-diagram-1:before {
+  content: "\38";
+}
+.landy-icon-diagram-2:before {
+  content: "\39";
+}
+.landy-icon-dialog:before {
+  content: "\21";
+}
+.landy-icon-dialog-1:before {
+  content: "\22";
+}
+.landy-icon-diploma:before {
+  content: "\23";
+}
+.landy-icon-dollar:before {
+  content: "\24";
+}
+.landy-icon-dollar-1:before {
+  content: "\25";
+}
+.landy-icon-dollar-2:before {
+  content: "\26";
+}
+.landy-icon-dossier:before {
+  content: "\27";
+}
+.landy-icon-dossier-1:before {
+  content: "\28";
+}
+.landy-icon-email:before {
+  content: "\29";
+}
+.landy-icon-employee:before {
+  content: "\2a";
+}
+.landy-icon-employee-1:before {
+  content: "\2b";
+}
+.landy-icon-employee-2:before {
+  content: "\2c";
+}
+.landy-icon-employee-3:before {
+  content: "\2d";
+}
+.landy-icon-employee-4:before {
+  content: "\2e";
+}
+.landy-icon-employee-5:before {
+  content: "\2f";
+}
+.landy-icon-employee-6:before {
+  content: "\3a";
+}
+.landy-icon-employee-7:before {
+  content: "\3b";
+}
+.landy-icon-employees:before {
+  content: "\3c";
+}
+.landy-icon-employees-1:before {
+  content: "\3d";
+}
+.landy-icon-employees-2:before {
+  content: "\3e";
+}
+.landy-icon-error-404:before {
+  content: "\3f";
+}
+.landy-icon-eye:before {
+  content: "\40";
+}
+.landy-icon-firewall:before {
+  content: "\5b";
+}
+.landy-icon-flag:before {
+  content: "\5d";
+}
+.landy-icon-flags:before {
+  content: "\5e";
+}
+.landy-icon-folder:before {
+  content: "\5f";
+}
+.landy-icon-folder-1:before {
+  content: "\60";
+}
+.landy-icon-folder-2:before {
+  content: "\7b";
+}
+.landy-icon-folders:before {
+  content: "\7c";
+}
+.landy-icon-gauge:before {
+  content: "\7d";
+}
+.landy-icon-gears:before {
+  content: "\7e";
+}
+.landy-icon-goal:before {
+  content: "\5c";
+}
+.landy-icon-group:before {
+  content: "\e000";
+}
+.landy-icon-growth:before {
+  content: "\e001";
+}
+.landy-icon-growth-1:before {
+  content: "\e002";
+}
+.landy-icon-hierarchical-structure:before {
+  content: "\e003";
+}
+.landy-icon-hierarchical-structure-1:before {
+  content: "\e004";
+}
+.landy-icon-house:before {
+  content: "\e005";
+}
+.landy-icon-human-resources:before {
+  content: "\e006";
+}
+.landy-icon-human-resources-1:before {
+  content: "\e007";
+}
+.landy-icon-id-card:before {
+  content: "\e008";
+}
+.landy-icon-idea:before {
+  content: "\e009";
+}
+.landy-icon-idea-2:before {
+  content: "\e00a";
+}
+.landy-icon-improve:before {
+  content: "\e00b";
+}
+.landy-icon-increase:before {
+  content: "\e00c";
+}
+.landy-icon-index:before {
+  content: "\e00d";
+}
+.landy-icon-infographic:before {
+  content: "\e00e";
+}
+.landy-icon-infographic-1:before {
+  content: "\e00f";
+}
+.landy-icon-internet:before {
+  content: "\e010";
+}
+.landy-icon-investment:before {
+  content: "\e011";
+}
+.landy-icon-investment-1:before {
+  content: "\e012";
+}
+.landy-icon-investment-2:before {
+  content: "\e013";
+}
+.landy-icon-investment-3:before {
+  content: "\e014";
+}
+.landy-icon-job:before {
+  content: "\e015";
+}
+.landy-icon-job-search:before {
+  content: "\e016";
+}
+.landy-icon-keyword:before {
+  content: "\e017";
+}
+.landy-icon-laptop:before {
+  content: "\e018";
+}
+.landy-icon-leader:before {
+  content: "\e019";
+}
+.landy-icon-leader-1:before {
+  content: "\e01a";
+}
+.landy-icon-leader-2:before {
+  content: "\e01b";
+}
+.landy-icon-leader-3:before {
+  content: "\e01c";
+}
+.landy-icon-leader-4:before {
+  content: "\e01d";
+}
+.landy-icon-leader-5:before {
+  content: "\e01e";
+}
+.landy-icon-leader-6:before {
+  content: "\e01f";
+}
+.landy-icon-like:before {
+  content: "\e020";
+}
+.landy-icon-line-graph:before {
+  content: "\e021";
+}
+.landy-icon-link:before {
+  content: "\e022";
+}
+.landy-icon-list:before {
+  content: "\e023";
+}
+.landy-icon-loupe:before {
+  content: "\e024";
+}
+.landy-icon-loupe-1:before {
+  content: "\e025";
+}
+.landy-icon-magnet:before {
+  content: "\e026";
+}
+.landy-icon-mail:before {
+  content: "\e027";
+}
+.landy-icon-man:before {
+  content: "\e028";
+}
+.landy-icon-man-1:before {
+  content: "\e029";
+}
+.landy-icon-man-2:before {
+  content: "\e02a";
+}
+.landy-icon-management:before {
+  content: "\e02b";
+}
+.landy-icon-management-1:before {
+  content: "\e02c";
+}
+.landy-icon-map:before {
+  content: "\e02d";
+}
+.landy-icon-matrix:before {
+  content: "\e02e";
+}
+.landy-icon-medal:before {
+  content: "\e02f";
+}
+.landy-icon-message:before {
+  content: "\e030";
+}
+.landy-icon-monitor:before {
+  content: "\e031";
+}
+.landy-icon-monitor-1:before {
+  content: "\e032";
+}
+.landy-icon-monitoring:before {
+  content: "\e033";
+}
+.landy-icon-network:before {
+  content: "\e034";
+}
+.landy-icon-networking:before {
+  content: "\e035";
+}
+.landy-icon-notification:before {
+  content: "\e036";
+}
+.landy-icon-padlock:before {
+  content: "\e037";
+}
+.landy-icon-pendrive:before {
+  content: "\e038";
+}
+.landy-icon-percentage:before {
+  content: "\e039";
+}
+.landy-icon-person:before {
+  content: "\e03a";
+}
+.landy-icon-petals:before {
+  content: "\e03b";
+}
+.landy-icon-pie-chart:before {
+  content: "\e03c";
+}
+.landy-icon-pie-chart-1:before {
+  content: "\e03d";
+}
+.landy-icon-pie-chart-2:before {
+  content: "\e03e";
+}
+.landy-icon-piggybank:before {
+  content: "\e03f";
+}
+.landy-icon-piggybank-1:before {
+  content: "\e040";
+}
+.landy-icon-placeholder:before {
+  content: "\e041";
+}
+.landy-icon-plant:before {
+  content: "\e042";
+}
+.landy-icon-plant-1:before {
+  content: "\e043";
+}
+.landy-icon-pointer:before {
+  content: "\e044";
+}
+.landy-icon-premium:before {
+  content: "\e045";
+}
+.landy-icon-presentation:before {
+  content: "\e046";
+}
+.landy-icon-presentation-1:before {
+  content: "\e047";
+}
+.landy-icon-presentation-2:before {
+  content: "\e048";
+}
+.landy-icon-presentation-3:before {
+  content: "\e049";
+}
+.landy-icon-profits:before {
+  content: "\e04a";
+}
+.landy-icon-promotion:before {
+  content: "\e04b";
+}
+.landy-icon-puzzle:before {
+  content: "\e04c";
+}
+.landy-icon-pyramid-chart:before {
+  content: "\e04d";
+}
+.landy-icon-quality:before {
+  content: "\e04e";
+}
+.landy-icon-question:before {
+  content: "\e04f";
+}
+.landy-icon-radial:before {
+  content: "\e050";
+}
+.landy-icon-rating:before {
+  content: "\e051";
+}
+.landy-icon-ratio:before {
+  content: "\e052";
+}
+.landy-icon-relations:before {
+  content: "\e053";
+}
+.landy-icon-responsive:before {
+  content: "\e054";
+}
+.landy-icon-reunion:before {
+  content: "\e055";
+}
+.landy-icon-reunion-1:before {
+  content: "\e056";
+}
+.landy-icon-review:before {
+  content: "\e057";
+}
+.landy-icon-saving:before {
+  content: "\e058";
+}
+.landy-icon-saving-1:before {
+  content: "\e059";
+}
+.landy-icon-scales:before {
+  content: "\e05a";
+}
+.landy-icon-schedule:before {
+  content: "\e05b";
+}
+.landy-icon-search:before {
+  content: "\e05c";
+}
+.landy-icon-server:before {
+  content: "\e05d";
+}
+.landy-icon-server-1:before {
+  content: "\e05e";
+}
+.landy-icon-server-2:before {
+  content: "\e05f";
+}
+.landy-icon-server-3:before {
+  content: "\e060";
+}
+.landy-icon-server-4:before {
+  content: "\e061";
+}
+.landy-icon-settings:before {
+  content: "\e062";
+}
+.landy-icon-share:before {
+  content: "\e063";
+}
+.landy-icon-shield:before {
+  content: "\e064";
+}
+.landy-icon-shopping-cart:before {
+  content: "\e065";
+}
+.landy-icon-smartphone:before {
+  content: "\e066";
+}
+.landy-icon-speech:before {
+  content: "\e067";
+}
+.landy-icon-speech-bubble:before {
+  content: "\e068";
+}
+.landy-icon-speedometer:before {
+  content: "\e069";
+}
+.landy-icon-star:before {
+  content: "\e06a";
+}
+.landy-icon-startup:before {
+  content: "\e06b";
+}
+.landy-icon-stopwatch:before {
+  content: "\e06c";
+}
+.landy-icon-support:before {
+  content: "\e06d";
+}
+.landy-icon-tag:before {
+  content: "\e06e";
+}
+.landy-icon-target:before {
+  content: "\e06f";
+}
+.landy-icon-target-1:before {
+  content: "\e070";
+}
+.landy-icon-tasks:before {
+  content: "\e071";
+}
+.landy-icon-tasks-1:before {
+  content: "\e072";
+}
+.landy-icon-team:before {
+  content: "\e073";
+}
+.landy-icon-team-1:before {
+  content: "\e074";
+}
+.landy-icon-teamwork:before {
+  content: "\e075";
+}
+.landy-icon-teamwork-1:before {
+  content: "\e076";
+}
+.landy-icon-teamwork-2:before {
+  content: "\e077";
+}
+.landy-icon-teamwork-3:before {
+  content: "\e078";
+}
+.landy-icon-telemarketer:before {
+  content: "\e079";
+}
+.landy-icon-telemarketer-1:before {
+  content: "\e07a";
+}
+.landy-icon-timeline:before {
+  content: "\e07b";
+}
+.landy-icon-timeline-1:before {
+  content: "\e07c";
+}
+.landy-icon-traffic:before {
+  content: "\e07d";
+}
+.landy-icon-trophy:before {
+  content: "\e07e";
+}
+.landy-icon-upload-file:before {
+  content: "\e07f";
+}
+.landy-icon-video-call:before {
+  content: "\e080";
+}
+.landy-icon-video-call-1:before {
+  content: "\e081";
+}
+.landy-icon-video-call-2:before {
+  content: "\e082";
+}
+.landy-icon-video-call-3:before {
+  content: "\e083";
+}
+.landy-icon-vision:before {
+  content: "\e084";
+}
+.landy-icon-visualization:before {
+  content: "\e085";
+}
+.landy-icon-woman:before {
+  content: "\e086";
+}
+.landy-icon-woman-1:before {
+  content: "\e087";
+}
+.landy-icon-woman-2:before {
+  content: "\e088";
+}
+.landy-icon-woman-3:before {
+  content: "\e089";
+}
+.landy-icon-woman-4:before {
+  content: "\e08a";
+}
+.landy-icon-woman-5:before {
+  content: "\e08b";
+}
+.landy-icon-worldwide:before {
+  content: "\e08c";
+}
+.landy-icon-worldwide-1:before {
+  content: "\e08d";
+}
+.landy-icon-yen:before {
+  content: "\e08e";
+}
